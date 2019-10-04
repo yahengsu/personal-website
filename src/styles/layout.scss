@@ -1,0 +1,109 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+body {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #2ecc71;
+}
+
+.not-found-container {
+    padding: 10%;
+}
+.not-found-text {
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+.not-found-link {
+    font-size: 1.5rem;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5% 20%;
+  line-height: 2.5;
+}
+
+.desc {
+  font-size: 1.1rem;
+  margin: 40px 0;
+}
+$github-color: #333333;
+$resume-color: #405de6;
+$linkedin-color: #0077b5;
+$email-color: #e10019;
+$medium-color: #00ab6c;
+.MuiButton-outlined {
+  &.github-button {
+    margin: 12px 12px 12px 0px;
+    border-color: $github-color;
+    .MuiButton-label {
+      color: $github-color;
+    }
+  }
+  &.resume-button {
+    margin: 12px 12px 12px 0px;
+    border-color: $resume-color;
+    .MuiButton-label {
+      color: $resume-color;
+    }
+  }
+  &.linkedin-button {
+    margin: 12px 12px 12px 0px;
+    border-color: $linkedin-color;
+    .MuiButton-label {
+      color: $linkedin-color;
+    }
+  }
+  &.email-button {
+    margin: 12px 12px 12px 0px;
+    border-color: $email-color;
+    .MuiButton-label {
+      color: $email-color;
+    }
+  }
+  &.medium-button {
+    margin: 12px 12px 12px 0px;
+    border-color: $medium-color;
+    .MuiButton-label {
+      color: $medium-color;
+    }
+  }
+}
+
+$github-color-hover: rgba(51, 51, 51, 0.3);
+$resume-color-hover: rgba(41, 128, 185, 0.3);
+$linkedin-color-hover: rgba(0, 119, 181, 0.3);
+$email-color-hover: rgba(225, 0, 25, 0.3);
+$medium-color-hover: rgba(0, 171, 108, 0.3);
+.MuiButton-root:hover {
+  &.github-button {
+    background-color: $github-color-hover;
+  }
+  &.resume-button {
+    background-color: $resume-color-hover;
+  }
+  &.linkedin-button {
+    background-color: $linkedin-color-hover;
+  }
+  &.email-button {
+    background-color: $email-color-hover;
+  }
+  &.medium-button {
+    background-color: $medium-color-hover;
+  }
+}
