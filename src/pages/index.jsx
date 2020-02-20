@@ -16,20 +16,20 @@ export default class index extends Component {
                     <p>
                         I'm a third-year Computer Engineering student at the
                         University of Waterloo with a passion for technological
-                        innovation.
+                        innovation. When I'm not studying or coding, you can find me learning 
+                        how to dance or watching anime!
                     </p>
                     <p>
-                        Currently, I work on backend systems and digital
+                        Previously, I worked on backend systems and digital
                         identity protocols at{" "}
                         <a
                             href="https://securekey.com/"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            SecureKey Technologies
+                            SecureKey Technologies{" "}
                         </a>
-                        . Previously, I worked on next-generation iOS banking
-                        solutions at the{" "}
+                        and next-generation iOS banking solutions at the{" "}
                         <a
                             href="https://twitter.com/tdlab"
                             rel="noopener noreferrer"
