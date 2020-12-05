@@ -11,15 +11,23 @@ export default class index extends Component {
                     <title>YaHeng Su</title>
                     <link rel="canonical" href="https://yaheng.io" />
                 </Helmet>
-                <h1 className="heading">Hello! I'm YaHeng.</h1>
+                <h1 className="heading">Hello, I'm YaHeng! <span role="img" aria-label="hand wave emoji">🖐</span></h1>
                 <div className="desc">
                     <p>
                         I'm a third-year Computer Engineering student at the
                         University of Waterloo with a passion for technological
-                        innovation. When I'm not studying or coding, you can find me learning 
+                        innovation. When I'm not studying or coding, I'm probably learning 
                         how to dance or watching anime!
                     </p>
                     <p>
+                        I'm an incoming software engineering intern at{" "}
+                        <a
+                            href="https://www.squarepoint-capital.com/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                        Squarepoint Capital
+                        </a> where I'll be working on their trading infrastructure and tooling. 
                         Previously, I worked on backend systems and digital
                         identity protocols at{" "}
                         <a
@@ -75,15 +83,6 @@ export default class index extends Component {
                 >
                     <Button variant="outlined" className="email-button">
                         Email
-                    </Button>
-                </a>
-                <a
-                    href="https://medium.com/@yaheng.su"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                >
-                    <Button variant="outlined" className="medium-button">
-                        Medium
                     </Button>
                 </a>
             </div>
